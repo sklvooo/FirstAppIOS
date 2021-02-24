@@ -21,6 +21,11 @@ class LoginViewController: UIViewController {
     }
 
     @IBAction func pressOnLoginButton(_ sender: Any) {
+        if nameInputField.text == "" && passwordInputField.text == "" {
+            performSegue(withIdentifier: "firstScreen", sender: self)
+        } else {
+            print("wrong password or name")
+        }
     }
     
 }
