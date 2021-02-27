@@ -14,6 +14,7 @@ class FriendInnerInfoViewController: UICollectionViewController {
     
     var displaydFriend: Friends?
 
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
