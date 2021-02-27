@@ -11,5 +11,10 @@ import UIKit
 class FriendViewCell: UITableViewCell {
 
     @IBOutlet var freiendName: UILabel!
-
+    @IBOutlet var freiendPhoto: UIImageView!
+    
+    func configure(with forecast: Friends) {
+        freiendName.text = String(describing: forecast.name)
+        freiendPhoto.image = forecast.photo
+    }
 }

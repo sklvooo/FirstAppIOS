@@ -175,28 +175,44 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCell" id="r4g-bg-FYc" customClass="FriendViewCell" customModule="VKFirstApp" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="28" width="414" height="53.5"/>
+                                <rect key="frame" x="0.0" y="28" width="414" height="70.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r4g-bg-FYc" id="BNP-f4-9SN">
-                                    <rect key="frame" x="0.0" y="0.0" width="414" height="53.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="70.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te5-uP-ex0">
-                                            <rect key="frame" x="186" y="16" width="42" height="21.5"/>
-                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Te5-uP-ex0">
+                                            <rect key="frame" x="35" y="16" width="118.5" height="38.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="Te5-uP-ex0" secondAttribute="height" multiplier="40:13" id="3TY-O2-LLH"/>
+                                            </constraints>
+                                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
+                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="sgg-Ga-2g5">
+                                            <rect key="frame" x="337" y="10" width="50" height="50.5"/>
+                                            <constraints>
+                                                <constraint firstAttribute="width" secondItem="sgg-Ga-2g5" secondAttribute="height" multiplier="1:1" id="Tjh-NT-sgV"/>
+                                                <constraint firstAttribute="width" constant="50" id="xzy-Ps-fTv"/>
+                                            </constraints>
+                                        </imageView>
                                     </subviews>
                                     <constraints>
-                                        <constraint firstItem="Te5-uP-ex0" firstAttribute="top" secondItem="BNP-f4-9SN" secondAttribute="top" constant="16" id="2S8-M5-4Gx"/>
-                                        <constraint firstItem="Te5-uP-ex0" firstAttribute="centerX" secondItem="BNP-f4-9SN" secondAttribute="centerX" id="2jN-hk-hTV"/>
-                                        <constraint firstItem="Te5-uP-ex0" firstAttribute="centerY" secondItem="BNP-f4-9SN" secondAttribute="centerY" id="jic-z0-n2N"/>
-                                        <constraint firstAttribute="bottom" secondItem="Te5-uP-ex0" secondAttribute="bottom" constant="16" id="whM-S8-Mne"/>
+                                        <constraint firstItem="sgg-Ga-2g5" firstAttribute="centerY" secondItem="BNP-f4-9SN" secondAttribute="centerY" id="1UM-fX-7vN"/>
+                                        <constraint firstAttribute="bottom" secondItem="Te5-uP-ex0" secondAttribute="bottom" constant="16" id="5ig-by-LN1"/>
+                                        <constraint firstItem="Te5-uP-ex0" firstAttribute="centerY" secondItem="BNP-f4-9SN" secondAttribute="centerY" id="L2O-Av-chG"/>
+                                        <constraint firstItem="sgg-Ga-2g5" firstAttribute="top" secondItem="BNP-f4-9SN" secondAttribute="top" constant="10" id="LSc-il-TU3"/>
+                                        <constraint firstItem="sgg-Ga-2g5" firstAttribute="leading" secondItem="Te5-uP-ex0" secondAttribute="trailing" constant="183.5" id="LcD-JR-t5D"/>
+                                        <constraint firstItem="Te5-uP-ex0" firstAttribute="top" secondItem="BNP-f4-9SN" secondAttribute="top" constant="16" id="hHM-Ia-EaA"/>
+                                        <constraint firstAttribute="trailing" secondItem="sgg-Ga-2g5" secondAttribute="trailing" constant="27" id="l9n-bv-9oc"/>
+                                        <constraint firstAttribute="bottom" secondItem="sgg-Ga-2g5" secondAttribute="bottom" constant="10" id="ma7-rE-mXo"/>
+                                        <constraint firstItem="Te5-uP-ex0" firstAttribute="leading" secondItem="BNP-f4-9SN" secondAttribute="leading" constant="35" id="wEg-Bw-yjK"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="freiendName" destination="Te5-uP-ex0" id="Djo-1S-xb0"/>
+                                    <outlet property="freiendPhoto" destination="sgg-Ga-2g5" id="Vss-3P-iYl"/>
                                     <segue destination="aHA-sM-Z4K" kind="show" identifier="FriendinfoSegue" id="6j7-Cn-jR0"/>
                                 </connections>
                             </tableViewCell>
@@ -213,7 +229,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ixi-gi-yuo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4058" y="-698"/>
+            <point key="canvasLocation" x="4057.971014492754" y="-698.4375"/>
         </scene>
         <!--Friend Inner Info View Controller-->
         <scene sceneID="p7E-Fy-BYQ">

@@ -10,15 +10,13 @@ import UIKit
 
 class FriendsViewController: UITableViewController {
     
-    fileprivate let friends = [
-        Friends(name: "Misha"),
-        Friends(name: "Sasha"),
-        Friends(name: "Masha"),
-        Friends(name: "Tanya"),
-        Friends(name: "Vika"),
-        Friends(name: "Lena"),
-        Friends(name: "Olga"),
-        Friends(name: "Stas")
+    let friends = [
+        Friends(name: "Misha", photo: UIImage(named: "photo")),
+        Friends(name: "Lena", photo: UIImage(named: "photo")),
+        Friends(name: "Masha", photo: UIImage(named: "photo")),
+        Friends(name: "Oksana", photo: UIImage(named: "photo")),
+        Friends(name: "Vlad", photo: UIImage(named: "photo")),
+        Friends(name: "Vika", photo: UIImage(named: "photo")),
     ]
 
     override func viewDidLoad() {
@@ -58,7 +56,7 @@ class FriendsViewController: UITableViewController {
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "FriendCell", for: indexPath) as? FriendViewCell else {return UITableViewCell()}
 
-        cell.freiendName.text = friends[indexPath.row].name
+        cell.configure(with: friends[indexPath.row])
 
         return cell
     }

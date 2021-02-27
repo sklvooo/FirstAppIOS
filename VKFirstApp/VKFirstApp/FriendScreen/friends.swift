@@ -6,8 +6,9 @@
 //  Copyright © 2021 Сергей Соколов. All rights reserved.
 //
 
-import Foundation
+import UIKit
 
 struct Friends {
     let name: String
+    let photo: UIImage?
 }
