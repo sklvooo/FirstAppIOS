@@ -174,7 +174,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendCell" id="r4g-bg-FYc" customClass="FriendViewCell" customModule="VKFirstApp" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="FriendViewCell" id="r4g-bg-FYc" customClass="FriendViewCell" customModule="VKFirstApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="70.5"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="r4g-bg-FYc" id="BNP-f4-9SN">
@@ -223,9 +223,6 @@
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" id="hae-aE-4Yx"/>
-                    <connections>
-                        <segue destination="aHA-sM-Z4K" kind="show" id="eF1-8K-juB"/>
-                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ixi-gi-yuo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -405,9 +402,6 @@
             <point key="canvasLocation" x="3148" y="116"/>
         </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="6j7-Cn-jR0"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Image" width="600" height="468"/>
         <image name="person.3" catalog="system" width="128" height="62"/>

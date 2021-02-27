@@ -9,6 +9,8 @@
 import UIKit
 
 class FriendViewCell: UITableViewCell {
+    
+    static let reuseIdentifier = "FriendViewCell"
 
     @IBOutlet var freiendName: UILabel!
     @IBOutlet var freiendPhoto: UIImageView!

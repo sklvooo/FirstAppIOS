@@ -54,7 +54,7 @@ class FriendsViewController: UITableViewController {
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "FriendCell", for: indexPath) as? FriendViewCell else {return UITableViewCell()}
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: FriendViewCell.reuseIdentifier, for: indexPath) as? FriendViewCell else {return UITableViewCell()}
 
         cell.configure(with: friends[indexPath.row])
 
