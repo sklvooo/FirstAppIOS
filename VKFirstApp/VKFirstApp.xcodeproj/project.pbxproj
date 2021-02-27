@@ -13,6 +13,15 @@
 		C2CB66CF25DD321600D3DFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CB66CD25DD321600D3DFA4 /* Main.storyboard */; };
 		C2CB66D125DD321A00D3DFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB66D025DD321A00D3DFA4 /* Assets.xcassets */; };
 		C2CB66D425DD321A00D3DFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CB66D225DD321A00D3DFA4 /* LaunchScreen.storyboard */; };
+		C2CB66E025E84DDD00D3DFA4 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66DF25E84DDD00D3DFA4 /* MainViewController.swift */; };
+		C2CB66E225E84E2800D3DFA4 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66E125E84E2800D3DFA4 /* FriendsViewController.swift */; };
+		C2CB66E425E9A15700D3DFA4 /* FriendViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66E325E9A15600D3DFA4 /* FriendViewCell.swift */; };
+		C2CB66E725E9A3EC00D3DFA4 /* friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66E625E9A3EC00D3DFA4 /* friends.swift */; };
+		C2CB66E925EA44C200D3DFA4 /* FriendInnerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66E825EA44C100D3DFA4 /* FriendInnerInfoViewController.swift */; };
+		C2CB66EB25EA4AFD00D3DFA4 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66EA25EA4AFD00D3DFA4 /* AddGroupViewController.swift */; };
+		C2CB66ED25EA4E3200D3DFA4 /* MyGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66EC25EA4E3200D3DFA4 /* MyGroupViewController.swift */; };
+		C2CB66EF25EA52B800D3DFA4 /* GroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66EE25EA52B800D3DFA4 /* GroupViewCell.swift */; };
+		C2CB66F225EA54F500D3DFA4 /* groups.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66F125EA54F500D3DFA4 /* groups.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +33,15 @@
 		C2CB66D025DD321A00D3DFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CB66D325DD321A00D3DFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2CB66D525DD321A00D3DFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CB66DF25E84DDD00D3DFA4 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		C2CB66E125E84E2800D3DFA4 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		C2CB66E325E9A15600D3DFA4 /* FriendViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendViewCell.swift; sourceTree = "<group>"; };
+		C2CB66E625E9A3EC00D3DFA4 /* friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = friends.swift; sourceTree = "<group>"; };
+		C2CB66E825EA44C100D3DFA4 /* FriendInnerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendInnerInfoViewController.swift; sourceTree = "<group>"; };
+		C2CB66EA25EA4AFD00D3DFA4 /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		C2CB66EC25EA4E3200D3DFA4 /* MyGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyGroupViewController.swift; sourceTree = "<group>"; };
+		C2CB66EE25EA52B800D3DFA4 /* GroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewCell.swift; sourceTree = "<group>"; };
+		C2CB66F125EA54F500D3DFA4 /* groups.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = groups.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,11 +78,36 @@
 				C2CB66C925DD321600D3DFA4 /* SceneDelegate.swift */,
 				C2CB66CB25DD321600D3DFA4 /* LoginViewController.swift */,
 				C2CB66CD25DD321600D3DFA4 /* Main.storyboard */,
+				C2CB66F025EA52F800D3DFA4 /* GroupScreen */,
+				C2CB66E525E9A16600D3DFA4 /* FriendScreen */,
 				C2CB66D025DD321A00D3DFA4 /* Assets.xcassets */,
 				C2CB66D225DD321A00D3DFA4 /* LaunchScreen.storyboard */,
 				C2CB66D525DD321A00D3DFA4 /* Info.plist */,
+				C2CB66DF25E84DDD00D3DFA4 /* MainViewController.swift */,
 			);
 			path = VKFirstApp;
+			sourceTree = "<group>";
+		};
+		C2CB66E525E9A16600D3DFA4 /* FriendScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB66E825EA44C100D3DFA4 /* FriendInnerInfoViewController.swift */,
+				C2CB66E125E84E2800D3DFA4 /* FriendsViewController.swift */,
+				C2CB66E325E9A15600D3DFA4 /* FriendViewCell.swift */,
+				C2CB66E625E9A3EC00D3DFA4 /* friends.swift */,
+			);
+			path = FriendScreen;
+			sourceTree = "<group>";
+		};
+		C2CB66F025EA52F800D3DFA4 /* GroupScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB66EC25EA4E3200D3DFA4 /* MyGroupViewController.swift */,
+				C2CB66EA25EA4AFD00D3DFA4 /* AddGroupViewController.swift */,
+				C2CB66EE25EA52B800D3DFA4 /* GroupViewCell.swift */,
+				C2CB66F125EA54F500D3DFA4 /* groups.swift */,
+			);
+			path = GroupScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +181,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CB66EF25EA52B800D3DFA4 /* GroupViewCell.swift in Sources */,
+				C2CB66E725E9A3EC00D3DFA4 /* friends.swift in Sources */,
+				C2CB66E425E9A15700D3DFA4 /* FriendViewCell.swift in Sources */,
+				C2CB66F225EA54F500D3DFA4 /* groups.swift in Sources */,
 				C2CB66CC25DD321600D3DFA4 /* LoginViewController.swift in Sources */,
+				C2CB66E225E84E2800D3DFA4 /* FriendsViewController.swift in Sources */,
 				C2CB66C825DD321600D3DFA4 /* AppDelegate.swift in Sources */,
+				C2CB66E925EA44C200D3DFA4 /* FriendInnerInfoViewController.swift in Sources */,
 				C2CB66CA25DD321600D3DFA4 /* SceneDelegate.swift in Sources */,
+				C2CB66EB25EA4AFD00D3DFA4 /* AddGroupViewController.swift in Sources */,
+				C2CB66ED25EA4E3200D3DFA4 /* MyGroupViewController.swift in Sources */,
+				C2CB66E025E84DDD00D3DFA4 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
