@@ -10,23 +10,27 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    
-    @IBOutlet var nameInputField: UITextField!
-    @IBOutlet var passwordInputField: UITextField!
+
+    @IBOutlet var loginButtonStyle: UIButton!
+    @IBOutlet var loginTextField: UITextField!
+    @IBOutlet var passwordTextField: UITextField!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        passwordInputField.isSecureTextEntry = true
+        loginButtonStyle.layer.borderWidth = 1
+        loginButtonStyle.layer.borderColor = UIColor.white.cgColor
+        loginButtonStyle.layer.cornerRadius = 5
+    
     }
 
-    @IBAction func pressOnLoginButton(_ sender: Any) {
-        if nameInputField.text == "" && passwordInputField.text == "" {
-            performSegue(withIdentifier: "firstScreen", sender: self)
+    
+    @IBAction func loginButtonPress(_ sender: UIButton) {
+        if loginTextField.text == "" && passwordTextField.text == "" {
+            performSegue(withIdentifier: "mainScreenSegue", sender: self)
         } else {
-            print("wrong password or name")
+            print("Wrong password")
         }
     }
-    
 }
 
