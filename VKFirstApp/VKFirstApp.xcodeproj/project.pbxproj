@@ -12,6 +12,18 @@
 		C2CB66CF25DD321600D3DFA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CB66CD25DD321600D3DFA4 /* Main.storyboard */; };
 		C2CB66D125DD321A00D3DFA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CB66D025DD321A00D3DFA4 /* Assets.xcassets */; };
 		C2CB66D425DD321A00D3DFA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CB66D225DD321A00D3DFA4 /* LaunchScreen.storyboard */; };
+		C2CB66F425EBE60100D3DFA4 /* LaunchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66F325EBE60100D3DFA4 /* LaunchScreenViewController.swift */; };
+		C2CB66F625F055D800D3DFA4 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66F525F055D800D3DFA4 /* MainPageViewController.swift */; };
+		C2CB66F825F058B200D3DFA4 /* UserGroupsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66F725F058B200D3DFA4 /* UserGroupsTableViewController.swift */; };
+		C2CB66FA25F05AF000D3DFA4 /* UserGroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66F925F05AF000D3DFA4 /* UserGroupViewCell.swift */; };
+		C2CB66FD25F05D0E00D3DFA4 /* UserFriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66FC25F05D0E00D3DFA4 /* UserFriendsViewController.swift */; };
+		C2CB66FF25F05D8600D3DFA4 /* UserFriendViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB66FE25F05D8600D3DFA4 /* UserFriendViewCell.swift */; };
+		C2CB670325F05EA800D3DFA4 /* AllGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB670225F05EA800D3DFA4 /* AllGroupViewController.swift */; };
+		C2CB670525F0D48300D3DFA4 /* UserGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB670425F0D48300D3DFA4 /* UserGroup.swift */; };
+		C2CB670725F0E7D800D3DFA4 /* UserFriend.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB670625F0E7D700D3DFA4 /* UserFriend.swift */; };
+		C2CB670925F0EAEB00D3DFA4 /* AllGroupViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB670825F0EAEB00D3DFA4 /* AllGroupViewCell.swift */; };
+		C2CB670D25F11A7800D3DFA4 /* FriendInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB670C25F11A7800D3DFA4 /* FriendInfoViewController.swift */; };
+		C2CB670F25F121D200D3DFA4 /* AllGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2CB670E25F121D200D3DFA4 /* AllGroup.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +34,18 @@
 		C2CB66D025DD321A00D3DFA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C2CB66D325DD321A00D3DFA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C2CB66D525DD321A00D3DFA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CB66F325EBE60100D3DFA4 /* LaunchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchScreenViewController.swift; sourceTree = "<group>"; };
+		C2CB66F525F055D800D3DFA4 /* MainPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		C2CB66F725F058B200D3DFA4 /* UserGroupsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupsTableViewController.swift; sourceTree = "<group>"; };
+		C2CB66F925F05AF000D3DFA4 /* UserGroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroupViewCell.swift; sourceTree = "<group>"; };
+		C2CB66FC25F05D0E00D3DFA4 /* UserFriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFriendsViewController.swift; sourceTree = "<group>"; };
+		C2CB66FE25F05D8600D3DFA4 /* UserFriendViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFriendViewCell.swift; sourceTree = "<group>"; };
+		C2CB670225F05EA800D3DFA4 /* AllGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupViewController.swift; sourceTree = "<group>"; };
+		C2CB670425F0D48300D3DFA4 /* UserGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserGroup.swift; sourceTree = "<group>"; };
+		C2CB670625F0E7D700D3DFA4 /* UserFriend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFriend.swift; sourceTree = "<group>"; };
+		C2CB670825F0EAEB00D3DFA4 /* AllGroupViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroupViewCell.swift; sourceTree = "<group>"; };
+		C2CB670C25F11A7800D3DFA4 /* FriendInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendInfoViewController.swift; sourceTree = "<group>"; };
+		C2CB670E25F121D200D3DFA4 /* AllGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllGroup.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,11 +81,63 @@
 				C2CB66C725DD321600D3DFA4 /* AppDelegate.swift */,
 				C2CB66C925DD321600D3DFA4 /* SceneDelegate.swift */,
 				C2CB66CD25DD321600D3DFA4 /* Main.storyboard */,
+				C2CB66F325EBE60100D3DFA4 /* LaunchScreenViewController.swift */,
+				C2CB66F525F055D800D3DFA4 /* MainPageViewController.swift */,
+				C2CB670025F05D8E00D3DFA4 /* Friends */,
+				C2CB66FB25F05AF900D3DFA4 /* Groups */,
 				C2CB66D025DD321A00D3DFA4 /* Assets.xcassets */,
 				C2CB66D225DD321A00D3DFA4 /* LaunchScreen.storyboard */,
 				C2CB66D525DD321A00D3DFA4 /* Info.plist */,
 			);
 			path = VKFirstApp;
+			sourceTree = "<group>";
+		};
+		C2CB66FB25F05AF900D3DFA4 /* Groups */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB670A25F0EB0000D3DFA4 /* AllGroup */,
+				C2CB670125F05E7F00D3DFA4 /* UserGroup */,
+			);
+			path = Groups;
+			sourceTree = "<group>";
+		};
+		C2CB670025F05D8E00D3DFA4 /* Friends */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB670B25F11A4F00D3DFA4 /* UserFriend */,
+				C2CB670C25F11A7800D3DFA4 /* FriendInfoViewController.swift */,
+			);
+			path = Friends;
+			sourceTree = "<group>";
+		};
+		C2CB670125F05E7F00D3DFA4 /* UserGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB66F725F058B200D3DFA4 /* UserGroupsTableViewController.swift */,
+				C2CB66F925F05AF000D3DFA4 /* UserGroupViewCell.swift */,
+				C2CB670425F0D48300D3DFA4 /* UserGroup.swift */,
+			);
+			path = UserGroup;
+			sourceTree = "<group>";
+		};
+		C2CB670A25F0EB0000D3DFA4 /* AllGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB670825F0EAEB00D3DFA4 /* AllGroupViewCell.swift */,
+				C2CB670225F05EA800D3DFA4 /* AllGroupViewController.swift */,
+				C2CB670E25F121D200D3DFA4 /* AllGroup.swift */,
+			);
+			path = AllGroup;
+			sourceTree = "<group>";
+		};
+		C2CB670B25F11A4F00D3DFA4 /* UserFriend */ = {
+			isa = PBXGroup;
+			children = (
+				C2CB66FE25F05D8600D3DFA4 /* UserFriendViewCell.swift */,
+				C2CB66FC25F05D0E00D3DFA4 /* UserFriendsViewController.swift */,
+				C2CB670625F0E7D700D3DFA4 /* UserFriend.swift */,
+			);
+			path = UserFriend;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +211,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2CB66F625F055D800D3DFA4 /* MainPageViewController.swift in Sources */,
+				C2CB66FA25F05AF000D3DFA4 /* UserGroupViewCell.swift in Sources */,
+				C2CB670325F05EA800D3DFA4 /* AllGroupViewController.swift in Sources */,
+				C2CB670F25F121D200D3DFA4 /* AllGroup.swift in Sources */,
+				C2CB670725F0E7D800D3DFA4 /* UserFriend.swift in Sources */,
 				C2CB66C825DD321600D3DFA4 /* AppDelegate.swift in Sources */,
+				C2CB66FD25F05D0E00D3DFA4 /* UserFriendsViewController.swift in Sources */,
+				C2CB670925F0EAEB00D3DFA4 /* AllGroupViewCell.swift in Sources */,
+				C2CB66F825F058B200D3DFA4 /* UserGroupsTableViewController.swift in Sources */,
+				C2CB670525F0D48300D3DFA4 /* UserGroup.swift in Sources */,
+				C2CB66FF25F05D8600D3DFA4 /* UserFriendViewCell.swift in Sources */,
+				C2CB670D25F11A7800D3DFA4 /* FriendInfoViewController.swift in Sources */,
+				C2CB66F425EBE60100D3DFA4 /* LaunchScreenViewController.swift in Sources */,
 				C2CB66CA25DD321600D3DFA4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
